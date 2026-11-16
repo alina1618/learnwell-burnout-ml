@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas==2.2.3
+numpy
+scikit-learn
+joblib
+evidently==0.7.23
+jupyter
+pytest
+httpx

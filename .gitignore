@@ -1,0 +1,20 @@
+# віртуальне середовище і кеш
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# модель створюється через /train-model
+models/*.pkl
+!models/my_standard_scaler.pkl
+models/model_info.json
+models/preprocessing_params.json
+models/feature_importance.csv
+
+# історія запусків monitor.py
+reports/*_20*.html
+
+# службові файли
+.vscode/
+*.log
